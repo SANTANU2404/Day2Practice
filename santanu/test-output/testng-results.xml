@@ -2,16 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-03T22:41:28 IST" name="Default suite" finished-at="2022-10-03T22:41:39 IST" duration-ms="11080">
+  <suite started-at="2022-10-03T23:15:11 IST" name="Default suite" finished-at="2022-10-03T23:15:24 IST" duration-ms="13313">
     <groups>
     </groups>
-    <test started-at="2022-10-03T22:41:28 IST" name="Default test" finished-at="2022-10-03T22:41:39 IST" duration-ms="11080">
-      <class name="com.qa.testbase.TestBAse">
-        <test-method signature="setUp()[pri:0, instance:com.qa.testbase.TestBAse@50eac852]" started-at="2022-10-03T22:41:28 IST" name="setUp" finished-at="2022-10-03T22:41:39 IST" duration-ms="11022" status="PASS">
+    <test started-at="2022-10-03T23:15:11 IST" name="Default test" finished-at="2022-10-03T23:15:24 IST" duration-ms="13313">
+      <class name="com.qa.testlayer.ResisterPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testlayer.ResisterPageTest@192d43ce]" started-at="2022-10-03T23:15:11 IST" name="setUp" finished-at="2022-10-03T23:15:24 IST" duration-ms="13138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-      </class> <!-- com.qa.testbase.TestBAse -->
+        <test-method signature="verifyResisterPage()[pri:0, instance:com.qa.testlayer.ResisterPageTest@192d43ce]" started-at="2022-10-03T23:15:24 IST" name="verifyResisterPage" finished-at="2022-10-03T23:15:24 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResisterPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testlayer.ResisterPageTest@192d43ce]" started-at="2022-10-03T23:15:24 IST" name="tearDown" finished-at="2022-10-03T23:15:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testlayer.ResisterPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
