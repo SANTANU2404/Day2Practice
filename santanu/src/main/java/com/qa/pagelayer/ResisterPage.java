@@ -20,5 +20,11 @@ public class ResisterPage extends TestBAse{
 		firstName.sendKeys(name);
 	}
 	
+	@FindBy(xpath="//input[@id='lastname']")
+	private WebElement lastName;
+	public void enterlastName(String last)
+	{
+		lastName.sendKeys(last);
+	}
 
 }
