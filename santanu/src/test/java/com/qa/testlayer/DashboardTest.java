@@ -7,10 +7,9 @@ import com.qa.testbase.TestBAse;
 
 public class DashboardTest extends TestBAse{
 	@Test
-	public void verifyDashboard() {
-	DashBoardPage dash=new DashBoardPage();
-	
-	dash.clickOnTV();
+	public void verifyDashboard() throws InterruptedException {
+	Thread.sleep(2000);
+	dash.clickOnMyWishlist();
 	}
 
 }

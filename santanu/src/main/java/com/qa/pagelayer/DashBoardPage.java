@@ -12,11 +12,18 @@ public class DashBoardPage extends TestBAse{
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(xpath="//a[contains(text(),'TV')]")
-	private WebElement tv_btn;
-	public void clickOnTV()
+//	@FindBy(xpath="//a[contains(text(),'TV')]")
+//	private WebElement tv_btn;
+//	public void clickOnTV()
+//	{
+//		tv_btn.click();
+//	}
+	
+	@FindBy(xpath="(//a[(text()='My Wishlist')])[2]")
+	private WebElement my_wishlist;
+	public void clickOnMyWishlist()
 	{
-		tv_btn.click();
+		my_wishlist.click();
 	}
 
 }

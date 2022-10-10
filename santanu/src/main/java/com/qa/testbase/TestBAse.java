@@ -9,13 +9,14 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import com.qa.pagelayer.DashBoardPage;
 import com.qa.pagelayer.LoginPage;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestBAse {
 	public static WebDriver driver;
-	
+	public DashBoardPage dash;
 	
 	@BeforeMethod
 	public void setUp()
@@ -35,6 +36,14 @@ public class TestBAse {
 		//click on create new account
 		//driver.findElement(By.xpath("//span[contains(text(),'Create an Account')]")).click();
 		
+		LoginPage login=new LoginPage();
+		login.clickOnAccount();
+		login.clickOnlogIn();
+		login.enterEmailAddress("santanumaity24041996@gmail.com");
+		login.enterpassword("SAHADEBpratima24@");
+		login.clickOnLogInBtn();
+		
+		dash=new DashBoardPage();
 		
 	}
 	
